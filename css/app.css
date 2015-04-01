@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, section {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  display: block;
+  width: 100%; }
+
+@font-face {
+  font-family: Yellowtail;
+  src: url("../fonts/Yellowtail-Regular.otf") format("opentype"); }
+@font-face {
+  font-family: Karla;
+  src: url("../fonts/Karla-Regular.ttf") format("truetype"); }
+body {
+  font-family: Karla; }
+
+h1 {
+  font-size: 2.7em;
+  padding: .6em 0; }
+
+h2 {
+  font-size: 1.6em;
+  padding: .6em 0; }
+
+a {
+  color: #000; }
+
+.header {
+  padding: 1em;
+  background-color: #8A0F0F;
+  text-align: left;
+  color: #fff; }
+  .header h1 {
+    display: inline-block;
+    color: #fff;
+    font-family: Yellowtail; }
+
+.nav {
+  float: right; }
+  .nav a {
+    color: #fff; }
+  .nav li {
+    display: inline-block;
+    padding: 0.5em, 0.5em; }
+  .nav a:hover {
+    color: #0F8A8A;
+    transition: .5s; }
+
+.statementBox {
+  padding: 5em;
+  background-color: #C79C1A;
+  color: #fff;
+  text-align: center;
+  border: 2px, solid, #9a9a9a;
+  border-radius: 0; }
+
+.infoBox {
+  padding: 5em 2em;
+  background-color: #fff;
+  color: #4e4e4e;
+  text-align: center; }
+
+.gridBox, .generalBox {
+  padding: 0.5em;
+  background-color: #fff;
+  color: #4e4e4e;
+  text-align: center; }
+  .gridBox h1, .generalBox h1 {
+    border: 2px, solid, #4e4e4e;
+    font-family: Yellowtail; }
+
+.griDiv {
+  padding: 1em;
+  background-color: #9a9a9a;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  margin: .2em; }
+
+.footer {
+  padding: 1em;
+  background-color: #8A0F0F;
+  color: #fff;
+  text-align: left; }
+
+.primaryButton, .secondaryButton, .accentButton {
+  background-color: #8A0F0F;
+  color: #fff;
+  padding: 0.8em;
+  font-size: 1em;
+  text-align: center;
+  border: none;
+  border-radius: 5px; }
+  .primaryButton:hover, .secondaryButton:hover, .accentButton:hover {
+    color: #4e4e4e; }
+  .primaryButton:active, .secondaryButton:active, .accentButton:active {
+    background-color: #5c0a0a; }
+
+.secondaryButton {
+  background-color: #C79C1A; }
+
+.accentButton {
+  background-color: #0F8A8A; }
+
+.grid_12 {
+  width: 100%;
+  float: left; }
+
+.grid_11 {
+  width: 91.666%;
+  float: left; }
+
+.grid_10 {
+  width: 83.333%;
+  float: left; }
+
+.grid_9 {
+  width: 75%;
+  float: left; }
+
+.grid_8 {
+  width: 66.666%;
+  float: left; }
+
+.grid_7 {
+  width: 58.333%;
+  float: left; }
+
+.grid_6 {
+  width: 50%;
+  float: left; }
+
+.grid_5 {
+  width: 41.666%;
+  float: left; }
+
+.grid_4 {
+  width: 33.333%;
+  float: left; }
+
+.grid_3 {
+  width: 25%;
+  float: left; }
+
+.grid_2 {
+  width: 16.666%;
+  float: left; }
+
+.grid_1 {
+  width: 8.333%;
+  float: left; }
+
+.clearfx:after {
+  content: ' ';
+  display: block;
+  clear: both; }
+
+.clear, .footer {
+  clear: both; }
+
+/*# sourceMappingURL=app.css.map */

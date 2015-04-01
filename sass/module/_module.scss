@@ -1,0 +1,60 @@
+.header {
+  @include headingBox(1em, left, $white, $white);
+}
+
+.nav {
+  @include navList(inline-block, $white, .5em, .5em);
+  float: right;
+  a:hover {
+    color: $accentColor;
+    transition: .5s;
+  }
+}
+
+.statementBox {
+  @include contentBox(5em, center, $secondaryColor, $white);
+  @include border(2px, solid, $gray, 0)
+}
+
+.infoBox {
+  @include contentBox(5em 2em, center, $white, $darkGray)
+}
+
+.gridBox {
+  @include contentBox(.5em, center, $white, $darkGray);
+  h1 {
+    border: 2px, solid, $darkGray;
+    font-family: Yellowtail;
+  }
+}
+
+.griDiv {
+  @include contentBox(1em, center, $gray, $white);
+  border-radius: 5px;
+  margin: .2em;
+}
+
+.footer {
+  @include contentBox(1em, left, $primaryColor, $white);
+  @extend .clear;
+}
+
+.primaryButton {
+  @include button($primaryColor, $white, .8em, 1em);
+}
+
+.secondaryButton {
+  @extend .primaryButton;
+  background-color: $secondaryColor;
+}
+
+.accentButton {
+  @extend .primaryButton;
+  background-color: $accentColor;
+}
+
+.generalBox {
+  @extend .gridBox;
+}
+
+
